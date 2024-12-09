@@ -12,3 +12,5 @@ options:
 -heatmap        Color floor tiles based on number of steps to get to that tile from the top left corner. Green is lowest, Blue is highest.
 -help           Print this very helpful help section
 -solution       Trace the solution to the maze in red
+
+build with 'cc maze.c tiff.c -Ofast'
