@@ -5,13 +5,13 @@ The program prints the randomizer seed used after completion.
 
 options:
 
--h <value>      Height (in wall segments) of maze. Default of 300
+-h [value]      Height (in wall segments) of maze. Default of 300
 
--r <value>      Specify resolution (effective pixel width of a floor section), default of 5
+-r [value]      Specify resolution (effective pixel width of a floor section), default of 5
 
--S <value>      Specify andomizer seed default value of clock()
+-S [value]      Specify andomizer seed default value of clock()
 
--w <value>      Width (in wall segments) of maze. Default of 300
+-w [value]      Width (in wall segments) of maze. Default of 300
 
 
 -heatmap        Color floor tiles based on number of steps to get to that tile from the top left corner. Green is lowest, Blue is highest.
